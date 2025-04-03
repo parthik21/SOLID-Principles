@@ -18,6 +18,7 @@ class Order:
 
 """
 ---Single Responsibility Principle---
+A class should have a single responsibily.
 
 Detached the Payment functionality from the Order class and created a new PaymentProcessor class.
 Now, we can add any payment-related functionality to the PaymentProcessor class without burdening the Order class.
